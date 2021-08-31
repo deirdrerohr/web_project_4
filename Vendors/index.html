@@ -9,7 +9,7 @@
   <title>Photo Sharing</title>
 </head>
 
-<body class="page">
+<body class="root">
   <header class="header">
     <img src="../Images/around@2.png" class="header__logo" alt="Around The Us Logo">
     <hr class="header__line">
@@ -19,8 +19,8 @@
     <section class="profiles">
       <div class="profile">
         <img src="../Images/Jacques.jpg" class="profile__image" alt="profile photo">
-        <h1 class="profile__name">Jacques Cousteau <button type="button" class="profile__edit-button opacity"><img
-              src="../Images/pencil.png" class="profile__button-image"></button></h1>
+        <h1 class="profile__name">Jacques Cousteau </h1><button type="button" class="profile__edit-button opacity" placeholder="name"><img
+              src="../Images/pencil.png" class="profile__button-image"></button>
         <button type="button" class="profile__button-add"><img src="../Images/plus.png"
             class="profile__button-plus"></button>
         <p class="profile__title">Photo Explorer</p>
@@ -33,7 +33,7 @@
           <h2 class="element__title">Yosemite Valley</h2>
           <button type="button" class="element__button-like"><img src="../Images/heart_unselected.png"
               class="element__button-heartu"> </button>
-        </div>
+            </div>
       </article>
       <article class="element">
         <img src="../Images/Lake_Louise.png" class="element__image" alt="Lake Louise">
@@ -86,14 +86,15 @@
     <!--modal-->
     <section class="popup">
       <div class="popup__container">
-          <button class="popup__close-button opacity"></button>
+          <button aria-label="close" type="button" class="popup__close-button opacity"></button>
           <h2 class="popup__heading">Edit profile</h2>
-          <form class="form">
-              <input type="text" class="form__input form__input_name" id="input-name" placeholder="Name">
-              <input type="text" class="form__input form__input_title" id="input-title" placeholder="About me">
-              <button class="form__save-button opacity__button">Save</button>
+          <form class="form" name="editInformation">
+              <input type="text" class="form__input form__input_type_name" id="input-name" name="input-name" placeholder="Name">
+              <input type="text" class="form__input form__input_type_title" id="input-title" name="input-title" placeholder="About me">
+              <button type="submit" class="form__save-button opacity">Save</button>
           </form>
       </div>
+  </section>
     
   </main>
   <footer class="footer">

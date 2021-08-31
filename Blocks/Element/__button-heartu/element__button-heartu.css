@@ -3,3 +3,6 @@
   background-color: #ffffff;
   border: none;
 }
+.element__button-heartu:hover{
+  opacity: .5;
+ }
