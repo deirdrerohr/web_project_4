@@ -1,0 +1,13 @@
+.profile__button-plus {
+  width: 22px;
+  height: 22px;
+}
+@media screen and (max-width: 1279px) {
+  .profile__button-plus {
+    width: 16px;
+    height: 16px;
+  }
+}
+.profile__button-plus:hover{
+  opacity: .5;
+ }

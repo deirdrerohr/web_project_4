@@ -1,7 +1,7 @@
 //Form input query selectors
 let modal = document.querySelector(".popup");
-let nameInput = document.querySelector(".form__input_name");
-let jobInput = document.querySelector(".form__input_title");
+let nameInput = document.querySelector(".form__input_type_name");
+let titleInput = document.querySelector(".form__input_type_title");
 let saveButton = document.querySelector(".form__save-button");
 
 //profile information query selectors
@@ -22,7 +22,7 @@ let formElement = document.querySelector(".form");// Use the querySelector() met
 function toggleModal() {
   modal.classList.toggle('popup_opened');
   nameInput.value = profileName.textContent;
-  jobInput.value = profileTitle.textContent; 
+  titleInput.value = profileTitle.textContent; 
 };
 
 //EventListener
@@ -34,7 +34,7 @@ function handleFormSubmit(evt) {
   evt.preventDefault();
 
   profileName.textContent = nameInput.value;
-  profileTitle.textContent = jobInput.value;
+  profileTitle.textContent = titleInput.value;
 
   toggleModal();
 }

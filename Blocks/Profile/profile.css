@@ -1,0 +1,18 @@
+.profile {
+  margin: auto;
+  display: grid;
+  grid-template-columns: [first] 120px [line2] auto [line3] 25px [line4] 150px;
+  grid-template-rows: [row1-start] 65px [row1-end] 65px;
+  column-gap: 30px;
+  /*justify-content: left;*/
+  padding-top: 40px;
+}
+@media screen and (max-width: 1279px) {
+  .profile {
+    margin: auto;
+    padding-top: 38px;
+    grid-template-columns: [first] 282px;
+    grid-template-rows: [row1] 127px [row2] 50px [row3] 50px [row4] 50px;
+    max-width: 282px;
+  }
+}
