@@ -1,0 +1,16 @@
+.profile__button-add {
+  grid-column: 3;
+  grid-row: 1 / span 2;
+  color: #ffffff;
+  background-color: #000000;
+  height: 50px;
+  width: 150px;
+  place-self: center;
+}
+@media screen and (max-width: 1279px) {
+  .profile__button-add {
+    grid-column: 1;
+    grid-row: 4;
+    width: 282px;
+  }
+}
