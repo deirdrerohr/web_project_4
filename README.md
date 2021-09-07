@@ -3,7 +3,7 @@
 
 ## This responsive web page was coded from Figma design brief and includes javascript modal
 
-## You can check out this project on github pages.  https://deirdrerohr.github.io/web_project_4/
+## You can check out this project on github pages. https://deirdrerohr.github.io/web_project_4/
 
 ### What I learned
 
