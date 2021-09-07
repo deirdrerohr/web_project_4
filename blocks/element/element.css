@@ -1,0 +1,10 @@
+.element {
+    margin: 0;
+    width: 282px;
+    height: 361px;
+    justify-self: center;
+    background-color: #ffffff;
+    color: black;
+    border-radius: 10px 10px 10px 10px;
+  }
+  
